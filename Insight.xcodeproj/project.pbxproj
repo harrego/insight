@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9CBA5824E2E25D0031A537 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A9CBA5724E2E25D0031A537 /* README.md */; };
+		4AB58ADD21DD415C007B32EE /* FolderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58ADC21DD415C007B32EE /* FolderTableViewCell.swift */; };
+		4ADA4FFD21DC1464008A9353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4FFC21DC1464008A9353 /* AppDelegate.swift */; };
+		4ADA4FFF21DC1464008A9353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA4FFE21DC1464008A9353 /* ViewController.swift */; };
+		4ADA500221DC1464008A9353 /* Insight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA500021DC1464008A9353 /* Insight.xcdatamodeld */; };
+		4ADA500421DC1466008A9353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA500321DC1466008A9353 /* Assets.xcassets */; };
+		4ADA500721DC1466008A9353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA500521DC1466008A9353 /* Main.storyboard */; };
+		4ADA501021DC1CE7008A9353 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA500F21DC1CE7008A9353 /* NameTableViewCell.swift */; };
+		4ADA501221DC1CF8008A9353 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA501121DC1CF8008A9353 /* InfoTableViewCell.swift */; };
+		4ADA501421DC2543008A9353 /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADA501321DC2543008A9353 /* SwiftSoup.framework */; };
+		4ADA501521DC2544008A9353 /* SwiftSoup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADA501321DC2543008A9353 /* SwiftSoup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4ADA501821DC255C008A9353 /* BookmarkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA501721DC255C008A9353 /* BookmarkParser.swift */; };
+		4ADA501D21DC2666008A9353 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA501C21DC2666008A9353 /* WindowController.swift */; };
+		4ADA501F21DC3B1C008A9353 /* BookmarkAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA501E21DC3B1C008A9353 /* BookmarkAnalyzer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4ADA501621DC2544008A9353 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4ADA501521DC2544008A9353 /* SwiftSoup.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A9CBA5724E2E25D0031A537 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4AB58ADC21DD415C007B32EE /* FolderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderTableViewCell.swift; sourceTree = "<group>"; };
+		4ADA4FF921DC1464008A9353 /* Insight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA4FFC21DC1464008A9353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADA4FFE21DC1464008A9353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ADA500121DC1464008A9353 /* Insight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Insight.xcdatamodel; sourceTree = "<group>"; };
+		4ADA500321DC1466008A9353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADA500621DC1466008A9353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADA500821DC1466008A9353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADA500921DC1466008A9353 /* Insight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Insight.entitlements; sourceTree = "<group>"; };
+		4ADA500F21DC1CE7008A9353 /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		4ADA501121DC1CF8008A9353 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		4ADA501321DC2543008A9353 /* SwiftSoup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSoup.framework; path = Carthage/Build/Mac/SwiftSoup.framework; sourceTree = "<group>"; };
+		4ADA501721DC255C008A9353 /* BookmarkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkParser.swift; sourceTree = "<group>"; };
+		4ADA501C21DC2666008A9353 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		4ADA501E21DC3B1C008A9353 /* BookmarkAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkAnalyzer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADA4FF621DC1464008A9353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADA501421DC2543008A9353 /* SwiftSoup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ADA4FF021DC1464008A9353 = {
+			isa = PBXGroup;
+			children = (
+				4A9CBA5724E2E25D0031A537 /* README.md */,
+				4ADA501321DC2543008A9353 /* SwiftSoup.framework */,
+				4ADA4FFB21DC1464008A9353 /* Insight */,
+				4ADA4FFA21DC1464008A9353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADA4FFA21DC1464008A9353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA4FF921DC1464008A9353 /* Insight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADA4FFB21DC1464008A9353 /* Insight */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA4FFC21DC1464008A9353 /* AppDelegate.swift */,
+				4ADA501C21DC2666008A9353 /* WindowController.swift */,
+				4ADA4FFE21DC1464008A9353 /* ViewController.swift */,
+				4ADA501921DC2563008A9353 /* Cells */,
+				4ADA501721DC255C008A9353 /* BookmarkParser.swift */,
+				4ADA501E21DC3B1C008A9353 /* BookmarkAnalyzer.swift */,
+				4ADA500321DC1466008A9353 /* Assets.xcassets */,
+				4ADA500521DC1466008A9353 /* Main.storyboard */,
+				4ADA500821DC1466008A9353 /* Info.plist */,
+				4ADA500921DC1466008A9353 /* Insight.entitlements */,
+				4ADA500021DC1464008A9353 /* Insight.xcdatamodeld */,
+			);
+			path = Insight;
+			sourceTree = "<group>";
+		};
+		4ADA501921DC2563008A9353 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA500F21DC1CE7008A9353 /* NameTableViewCell.swift */,
+				4ADA501121DC1CF8008A9353 /* InfoTableViewCell.swift */,
+				4AB58ADC21DD415C007B32EE /* FolderTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADA4FF821DC1464008A9353 /* Insight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADA500C21DC1466008A9353 /* Build configuration list for PBXNativeTarget "Insight" */;
+			buildPhases = (
+				4ADA4FF521DC1464008A9353 /* Sources */,
+				4ADA4FF621DC1464008A9353 /* Frameworks */,
+				4ADA4FF721DC1464008A9353 /* Resources */,
+				4ADA501621DC2544008A9353 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insight;
+			productName = Insight;
+			productReference = 4ADA4FF921DC1464008A9353 /* Insight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADA4FF121DC1464008A9353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Harry Stanton";
+				TargetAttributes = {
+					4ADA4FF821DC1464008A9353 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4ADA4FF421DC1464008A9353 /* Build configuration list for PBXProject "Insight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADA4FF021DC1464008A9353;
+			productRefGroup = 4ADA4FFA21DC1464008A9353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADA4FF821DC1464008A9353 /* Insight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADA4FF721DC1464008A9353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9CBA5824E2E25D0031A537 /* README.md in Resources */,
+				4ADA500421DC1466008A9353 /* Assets.xcassets in Resources */,
+				4ADA500721DC1466008A9353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADA4FF521DC1464008A9353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADA500221DC1464008A9353 /* Insight.xcdatamodeld in Sources */,
+				4ADA501221DC1CF8008A9353 /* InfoTableViewCell.swift in Sources */,
+				4ADA4FFF21DC1464008A9353 /* ViewController.swift in Sources */,
+				4ADA501D21DC2666008A9353 /* WindowController.swift in Sources */,
+				4ADA501021DC1CE7008A9353 /* NameTableViewCell.swift in Sources */,
+				4AB58ADD21DD415C007B32EE /* FolderTableViewCell.swift in Sources */,
+				4ADA501F21DC3B1C008A9353 /* BookmarkAnalyzer.swift in Sources */,
+				4ADA4FFD21DC1464008A9353 /* AppDelegate.swift in Sources */,
+				4ADA501821DC255C008A9353 /* BookmarkParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ADA500521DC1466008A9353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADA500621DC1466008A9353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADA500A21DC1466008A9353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADA500B21DC1466008A9353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4ADA500D21DC1466008A9353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Insight/Insight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Insight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = city.harry.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4ADA500E21DC1466008A9353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Insight/Insight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Insight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = city.harry.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADA4FF421DC1464008A9353 /* Build configuration list for PBXProject "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA500A21DC1466008A9353 /* Debug */,
+				4ADA500B21DC1466008A9353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADA500C21DC1466008A9353 /* Build configuration list for PBXNativeTarget "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA500D21DC1466008A9353 /* Debug */,
+				4ADA500E21DC1466008A9353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4ADA500021DC1464008A9353 /* Insight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4ADA500121DC1464008A9353 /* Insight.xcdatamodel */,
+			);
+			currentVersion = 4ADA500121DC1464008A9353 /* Insight.xcdatamodel */;
+			path = Insight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4ADA4FF121DC1464008A9353 /* Project object */;
+}
